@@ -1,3 +1,3 @@
 general:
-  build_dir: api
+  build_dir: src
 
