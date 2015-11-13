@@ -11,3 +11,25 @@ post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
     - find . -type f -regex ".*/target/surefire-reports/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
 3. Then I rebuild and everything was fine (even tried a 2 containers in parallel)
+
+mail received : 
+Success! Success	
+build report	viliescu/PRODSUP-001 #30
+branch	gh-pages
+commits	Create circle.yml f2cdd35 
+author	viliescu
+Yay, all your tests have passed!
+Your commands (they all ran successfully):
+Starting the build
+Start container
+Enable SSH
+Restore source cache
+Checkout using deploy key: 35:26:86:4a:6c:3d:0b:bd:76:ff:02:83:10:12:69:53
+Configure the build
+Restore cache
+Save cache
+mkdir -p $CIRCLE_TEST_REPORTS/junit/
+find . -type f -regex ".*/target/surefire-reports/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
+Collect test metadata
+Collect artifacts
+Disable SSH
