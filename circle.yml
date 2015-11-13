@@ -1,3 +1,7 @@
+
+general:
+  build_dir: gh-pages
+  
 checkout:
   post:
     - cp ./ci-server/config.yml ./app-server/config.yml
