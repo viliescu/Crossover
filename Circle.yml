@@ -1,3 +1,2 @@
-test:
-  override:
-    - php ./test-suite/run.php --unit-tests
+general:
+  build_dir: api
