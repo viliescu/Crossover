@@ -1,6 +1,6 @@
 
 general:
-  build_dir: gh-pages
+  build_dir: api-docs
   
 checkout:
   post:
