@@ -1,3 +1,0 @@
-test:
-  override:
-    - php ./app/run-server.php --daemon
