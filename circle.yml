@@ -1,2 +1,2 @@
 general:
-  build_dir: jacoco
+  build_dir: src
